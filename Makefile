@@ -4,9 +4,8 @@
 
 # For use in the LMFDB use "make lmfdb" and copy the files
 # citations_content.html and citations_content_bib.html to
-# lmfdb/templates/ then update the date in the two files
-# lmfdb/templates/citation.html and citations.html (that is two
-# different files!)
+# lmfdb/templates/ then update the date in the file
+# lmfdb/templates/citations_update.html .
 
 lmfdb: citations.bib
 	bibtex2html -a -nodoc -header "" -footer "" -nofooter -f url -html-entities -o citations_content citations.bib
