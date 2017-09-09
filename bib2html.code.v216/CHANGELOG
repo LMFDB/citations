@@ -1,0 +1,93 @@
+
+----------------------------------------
+Bib2html v216
+
+Bugs
+ - a bug in time.cpp with cygwin
+ - the link "download" existed even when the url entry 
+   is empty (e.g., url = {}).
+ - the pages numbers existed even when the page entry 
+   were empty (e.g., pages = {}, it wrote pp. 0-0,).
+ - 'Rapport de stage' was suppressed and replace by 'Master's theses' 
+   or 'these de master'
+New Features
+ - new fields corresponding to INRIA requirements 
+   * x-editorial-board ={yes}
+   * x-proceedings ={yes}
+   * x-popularization = {yes}
+   * x-invited-conference = {yes}
+   * x-international-audience ={yes}
+ - add new categories
+   * popularization
+   * invited conferences
+   * conference paper with no proceedings
+ - generates a tex page for each html page (if required), useful for CV
+ - better handling of the master's thesis
+ - modification of the index.html file
+    * add master's thesis in the categories
+    * add all the publications links at the begining
+ - include a "last update" information in each file (optional)
+ - check is the field url exists (optional)
+ - check is the field doi exists (optional)
+ - check is the field abstract exists  (optional)
+ - check is the field pages exists for journal or conference papers (optional)
+ - possibility to suppress most of the categorie (national conference, national journal, popularization, invited conference, workshop)
+ - put in the index.html file only the categories with entries
+ 
+Deprecated
+ - 
+
+Tests
+ - compile with MAC OSX Intel 10.5.6
+ - gcc 4.3.0
+
+----------------------------------------
+Bib2html v215
+New features
+ - add arxiv field and icon
+ - use autotools for compilation
+ - modify the example
+Tests
+ - compile with Mac OSX Intel 10.4.9 
+
+----------------------------------------
+Bib2html v214, june, 2006
+New features
+ - compile with Mac OSX Intel 10.4.6 
+ - gcc 4.0.1
+
+----------------------------------------
+Bib2html v213, january, 2006
+New features
+ - compile with Mac OSX PPC 
+ - gcc 4.0.0
+
+----------------------------------------
+Bib2html v212, october 23, 2005
+New features
+ - also generates latex files
+ - doi may be use along with pdf or url references 
+
+----------------------------------------
+Bib2html v211
+New features
+ - add the possibility to have a middle name (and to handle it)
+
+----------------------------------------
+Bib2html v210 wrt v209
+Change
+- How to handle keywords
+New features
+- handle master thesis entry
+Bug correction
+- bug in keywords display (publication pages)
+
+----------------------------------------
+Bib2html v205
+Change
+ - category pages sorted by year (beginning by newer reference)
+New features
+ - automatic creation of required directories
+ - add some new icons capabilities (eg doi, zip)
+ - add the filename field in @author to define the output 
+   filename for this author

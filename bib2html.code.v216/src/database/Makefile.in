@@ -1,0 +1,20 @@
+@build_mk@
+
+LIB		= $(B2H_LIB_PATH)/lib@B2H_LIBNAME@.a
+
+SOURCES		= database.cpp html.cpp tex.cpp check.cpp
+
+
+.KEEP_STATE	:
+.PRECIOUS	: $(LIB)
+
+all install	: directory $(LIB)
+
+@directory_mk@
+
+@lib_mk@
+
+@clean_mk@
+
+@uninstall_mk@
+

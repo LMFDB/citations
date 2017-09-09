@@ -1,0 +1,14 @@
+
+
+
+all install	: 
+	@B2H_HOME@/bin/bib2html.exe -force -config config.cnf
+
+
+clean:
+	rm -f *% 
+	rm -f *~ 
+
+uninstall uninstallall : 
+	$(MAKE) clean
+	rm -f Makefile config.cnf html.cnf

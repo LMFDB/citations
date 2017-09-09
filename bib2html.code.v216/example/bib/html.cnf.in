@@ -1,0 +1,156 @@
+
+#------------------------------------------------------------------------
+# HTML Configuration
+#------------------------------------------------------------------------
+
+
+@define{no.head.no.foot  }
+
+# page.start
+#   tag to begin the html page
+
+
+@define{ page.start =
+<!-- ---------------------------------------------------------------- -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+	<title>Projet de Recherche Lagadic - INRIA Rennes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="copyright" content="Projet Lagadic &copy; 2004">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="fr">
+	<link rel="stylesheet" type="text/css" href="@B2H_HOME@/example/css/lagadic.css">
+	<link rel="stylesheet" type="text/css" href="@B2H_HOME@/example/css/lagadic-publi.css">
+	 <meta http-equiv="Content-Language" content="fr">
+</head>
+<body>
+
+<!-- Page Contents begins Here -->
+<!-- ---------------------------------------------------------------- -->
+
+}
+
+@define{ page.start.language2 =
+<!-- ---------------------------------------------------------------- -->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+ "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+	<title>Projet de Recherche Lagadic - INRIA Rennes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="copyright" content="Projet Lagadic &copy; 2004">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="fr">
+	<link rel="stylesheet" type="text/css" href="@B2H_HOME@/example/css/lagadic.css">
+	<link rel="stylesheet" type="text/css" href="@B2H_HOME@/example/css/lagadic-publi.css">
+	 <meta http-equiv="Content-Language" content="fr">
+</head>
+<body>
+
+<!-- Page Contents begins Here -->
+<!-- ---------------------------------------------------------------- -->
+
+}
+
+#  page.end
+#   tag to end the html page  
+@define{ page.end.language1=
+
+<!-- ---------------------------------------------------------------- -->
+<!-- Page Contents ends Here -->
+
+This page is part the  <a href="http://www.irisa.fr/lagadic">Lagadic project</a> web site. <br>
+It has been automatically generated using the <a href="http://www.irisa.fr/lagadic/soft/bib2html/bib2html.html">bib2html</a> program.
+
+</body>
+</html>
+<!-- ---------------------------------------------------------------- -->
+ }
+
+#  page.end
+#   tag to end the html page  
+@define{ page.end.language2 =
+
+<!-- ---------------------------------------------------------------- -->
+<!-- Page Contents ends Here -->
+
+This page is part the  <a href="http://www.irisa.fr/lagadic">Lagadic project</a> web site. <br>
+It has been automatically generated using the <a href="http://www.irisa.fr/lagadic/soft/bib2html/bib2html.html">bib2html</a> program.
+</body>
+</html>
+<!-- ---------------------------------------------------------------- -->
+
+ }
+
+# Intitule des sous parties
+@define{ category.master.language2 = Rapports de Master }
+@define{ category.phd.language2 = Thèses de doctorat }
+@define{ category.journal.language2 = Articles de journaux }
+@define{ category.book.language2 = Livres }
+@define{ category.bookchapter.language2 = Chapitres de livres }
+@define{ category.conf.internationale.language2 = Conférences internationales  }
+@define{ category.conf.nationale.language2 =  Conférences nationales}
+@define{ category.conf.workshop.language2 = Workshops et symposiums }
+@define{ category.rr.language2 = Rapports de recherche  }
+@define{ category.misc.language2 = Divers }
+
+@define{ category.phd.language1 = PhD Thesis }
+@define{ category.master.language1 = Master's Thesis }
+@define{ category.journal.language1 =  Academic Journals }
+@define{ category.book.language1 = Books }
+@define{ category.bookchapter.language1 = Book Chapters }
+@define{ category.conf.internationale.language1 = International Conferences }
+@define{ category.conf.nationale.language1 = National Conferences }
+@define{ category.conf.workshop.language1 = Workshops and Symposiums }
+@define{ category.rr.language1 = Research Reports}
+@define{ category.misc.language1 = Misc }
+
+
+# qq point de cosmetique
+@define{ list.start = <ol> }
+@define{ list.item = <li> }
+@define{ list.end = </ol> }
+
+
+
+
+@define{last.modified.yes  }
+
+
+# liens vers les icones 
+@define{ url.icon.compressed  = @B2H_HOME@/example/icons/zip.gif}
+@define{ url.icon.doi  = @B2H_HOME@/example/icons/doi-icon.gif}
+@define{ url.icon.key  = @B2H_HOME@/example/icons/lock_icon.gif}
+@define{ url.icon.pdf  = @B2H_HOME@/example/icons/pdf.gif}
+@define{ url.icon.ps  = @B2H_HOME@/example/icons/ps.png}
+@define{ url.icon.abstract  = @B2H_HOME@/example/icons/abstract_icon.gif}
+@define{ url.icon.html  = @B2H_HOME@/example/icons/html_icon.png}
+@define{ url.icon.z  = @B2H_HOME@/example/icons/zip.gif}
+@define{ url.icon.arxiv  = @B2H_HOME@/example/icons/arxiv.gif}
+@define{ url.icon.word  =}
+@define{ url.icon.ppt  =}
+
+@define{ url.download.help  = http://www.irisa.fr/lagadic/download_help.html}
+
+
+@define{copyright.notice.language2 =
+  Les documents contenus dans ces répertoires sont rendus disponibles par les auteurs qui y ont contribué en vue d'assurer la diffusion à temps de travaux savants et techniques sur une base non-commerciale. Les droits de copie et autres droits sont gardés par les auteurs et par les détenteurs du copyright, en dépit du fait qu'ils présentent ici leurs travaux sous forme électronique. Les personnes copiant ces informations doivent adhérer aux termes et contraintes couverts par le copyright de chaque auteur. Ces travaux ne peuvent pas être rendus disponibles ailleurs sans la permission explicite du détenteur du copyright.
+}
+
+@define{copyright.notice.language1 =
+  This material is presented to ensure timely dissemination of scholarly and
+  technical work. Copyright and all rights therein are retained by authors or
+  by other copyright holders. All persons copying this information are expected
+  to adhere to the terms and constraints invoked by each author's
+  copyright. These works may not be reposted without the explicit permission of
+  the copyright holder.
+}
+
+
+
+
+

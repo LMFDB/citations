@@ -1,0 +1,1 @@
+source ../../bin/bib2html.exe -force -config config.cnf

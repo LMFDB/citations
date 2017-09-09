@@ -1,0 +1,14 @@
+
+@Month{1, janvier, january, janvier, janvier, jan., janvier} 
+@Month{2, fevrier, february, 2, f\'evrier, f\'{e}vrier, fev., février}
+@Month{3, mars , march, 3, mars, mars, mar., mars}
+@Month{4, avril , april, 4, avril, avril, avr., avril }
+@Month{5, mai , may, 5, mai, mai, mai, mai}
+@Month{6, juin , june, 6, juin, juin, juin, juin }
+@Month{7, juillet , july, 7, juillet, juillet, juil., juillet}
+@Month{8, aout , august, 8, ao\^ut, ao\^{u}t, aout, août}
+@Month{9, septembre, september, 9, septembre, septembre, sept., septembre}
+@Month{10, octobre , october, 10, octobre, octobre, oct,. octobre}
+@Month{11, novembre , november, 11, novembre, novembre, nov., novembre}
+@Month{12, decembre, december, 12, d\'ecembre, d\'{e}cembre, dec., décembre}
+

@@ -1,0 +1,23 @@
+@build_mk@
+
+LIB		= $(B2H_LIB_PATH)/lib@B2H_LIBNAME@.a
+
+SOURCES		=ParseArgv.cpp  String_replace.cpp  system.cpp  time.cpp \
+	String.cpp     divers.cpp       
+
+
+
+
+.KEEP_STATE	:
+.PRECIOUS	: $(LIB)
+
+all install	: directory $(LIB)
+
+@directory_mk@
+
+@lib_mk@
+
+@clean_mk@
+
+@uninstall_mk@
+

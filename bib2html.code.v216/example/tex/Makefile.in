@@ -1,0 +1,22 @@
+
+
+
+all install	: 
+	latex publi.tex
+	dvi2pdf publi
+	latex em.tex
+	dvi2pdf em
+	rm publi.aux publi.log  em.aux em.log
+
+
+clean  :
+	rm -f *% 
+	rm -f *~ 
+	rm -f publi.aux publi.log publi.dvi  em.aux em.log em.dvi
+
+uninstall :
+	rm -f *% 
+	rm -f *~ 
+	rm -f publi.aux publi.log publi.dvi  em.aux em.log em.dvi
+	rm -f Makefile publi.tex 
+

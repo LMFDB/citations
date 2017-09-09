@@ -1,0 +1,45 @@
+#autres fichier de configuration necessaire
+@ConfigFile{author.cnf, month.cnf,  html.cnf, keyword.cnf}
+
+#  biblio database
+@Bibfile{Lagadic07.bib, Lagadic08.bib, Lagadic09.bib}
+
+
+@define{language1} 
+@define{language2} 
+@define{language2.postfix = -fra  }
+@define{language1.postfix = -eng  }
+
+#address of the local page
+@define{directory.base = @B2H_HOME@/example/publi/}
+@define{directory.author = author}
+@define{directory.category = category}
+@define{directory.year = year}
+@define{directory.keywords = keyword}
+@define{directory.publi = publi}
+@define{directory.all = all}
+@define{directory.tex = tex}
+
+# address of the page on the www (should be something with http://...) 
+@define{base.http = @B2H_HOME@/example/publi}
+
+# one page per year
+@year{2009+, 2008, 2007,2006}
+
+# output tex pages
+@define{tex.yes}
+
+# check module
+@define{check.url.yes} # check the validity of the url 
+@define{check.pdf.yes} # check if the field url/pdf is defined
+@define{check.doi.yes} # check is the field doi is defined
+@define{check.abstract.no} # check is the field abstract is defined
+@define{check.pages.yes} # check is the field pages is defined
+
+
+# page generation
+@define{generate.national.journals.pages.yes}
+@define{generate.national.conferences.pages.yes}
+@define{generate.workshop.pages.no}
+@define{generate.popularization.pages.yes}
+@define{generate.invited.pages.yes}

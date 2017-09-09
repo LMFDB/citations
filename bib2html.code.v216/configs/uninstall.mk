@@ -1,0 +1,2 @@
+uninstall:
+	rm -f $(OBJECTS)

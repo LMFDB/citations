@@ -1,0 +1,24 @@
+@build_mk@
+
+LIB		= $(B2H_LIB_PATH)/lib@B2H_LIBNAME@.a
+
+SOURCES		= CEntry.cpp CEntryJournal.cpp  \
+	CEntryBook.cpp CEntryMasterThesis.cpp   \
+	CEntryTechReport.cpp CEntryInBook.cpp       \
+	CEntryMisc.cpp CEntryInProceedings.cpp  \
+	 CEntryPhdThesis.cpp 
+
+
+.KEEP_STATE	:
+.PRECIOUS	: $(LIB)
+
+all install	: directory $(LIB)
+
+@directory_mk@
+
+@lib_mk@
+
+@clean_mk@
+
+@uninstall_mk@
+

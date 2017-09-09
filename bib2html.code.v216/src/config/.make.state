@@ -1,0 +1,33 @@
+.MAKE_VERSION:	VERSION-1.0
+../../lib/libbib2html.a:
+	ar ts ../../lib///libbib2html.a
+/udd/marchand/code/bib2html/bib2html.code.v202/lib/libbib2html.a:
+	ar ts /udd/marchand/code/bib2html/bib2html.code.v202/lib//libbib2html.a
+/udd/marchand/code/bib2html/bib2html.code.v202/lib/SunOS/libbib2html.a:
+	ar ts /udd/marchand/code/bib2html/bib2html.code.v202/lib/SunOS/libbib2html.a
+.BUILT_LAST_MAKE_RUN:
+clean:
+	rm -f *.o
+	rm -f *~
+	rm -f *%
+../../lib///libbib2html.a(CConfig.o):	../config/CConfig.h /usr/local/gcc-2.95.3/include/g++-3/fstream.h /usr/local/gcc-2.95.3/include/g++-3/iostream.h /usr/local/gcc-2.95.3/include/g++-3/streambuf.h /usr/local/gcc-2.95.3/include/g++-3/libio.h /usr/local/gcc-2.95.3/sparc-sun-solaris2.7/include/_G_config.h /usr/local/gcc-2.95.3/lib/gcc-lib/sparc-sun-solaris2.7/2.95.3/include/stddef.h /usr/local/include/sys/cdefs.h /usr/include/stdlib.h /usr/include/iso/stdlib_iso.h /usr/include/sys/feature_tests.h
+../../lib///libbib2html.a(CConfig.o):	/usr/include/sys/isa_defs.h /usr/local/gcc-2.95.3/include/g++-3/string /usr/local/gcc-2.95.3/include/g++-3/std/bastring.h /usr/local/gcc-2.95.3/include/g++-3/cstddef /usr/local/gcc-2.95.3/include/g++-3/std/straits.h /usr/local/gcc-2.95.3/include/g++-3/cctype /usr/include/ctype.h /usr/include/iso/ctype_iso.h /usr/local/gcc-2.95.3/include/g++-3/cstring /usr/include/string.h /usr/include/iso/string_iso.h /usr/local/gcc-2.95.3/include/g++-3/alloc.h /usr/local/gcc-2.95.3/include/g++-3/stl_config.h
+../../lib///libbib2html.a(CConfig.o):	/usr/local/gcc-2.95.3/include/g++-3/stl_alloc.h /usr/local/include/assert.h /usr/local/gcc-2.95.3/include/g++-3/iterator /usr/local/gcc-2.95.3/include/g++-3/stl_relops.h /usr/local/gcc-2.95.3/include/g++-3/stl_iterator.h /usr/local/gcc-2.95.3/include/g++-3/std/bastring.cc ../tools/CList.h /usr/include/stdio.h /usr/include/iso/stdio_iso.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h ../include/constant.h ../tools/String.h
+../../lib///libbib2html.a(CConfig.o):	/usr/local/gcc-2.95.3/include/g++-3/iostream 
+	g++  -Wall -Wno-deprecated  -O2  -D ___   -I.. -c CConfig.cpp
+	ar rc ../../lib///libbib2html.a CConfig.o
+	rm CConfig.o
+/udd/marchand/code/bib2html/bib2html.code.v202/lib//libbib2html.a(CConfig.o):	/udd/marchand/code/bib2html/bib2html.code.v202/src/config/CConfig.h /usr/local/gcc-2.95.3/include/g++-3/fstream.h /usr/local/gcc-2.95.3/include/g++-3/iostream.h /usr/local/gcc-2.95.3/include/g++-3/streambuf.h /usr/local/gcc-2.95.3/include/g++-3/libio.h /usr/local/gcc-2.95.3/sparc-sun-solaris2.7/include/_G_config.h /usr/local/gcc-2.95.3/lib/gcc-lib/sparc-sun-solaris2.7/2.95.3/include/stddef.h /usr/local/include/sys/cdefs.h /usr/include/stdlib.h /usr/include/sys/feature_tests.h
+/udd/marchand/code/bib2html/bib2html.code.v202/lib//libbib2html.a(CConfig.o):	/usr/include/sys/isa_defs.h /usr/local/gcc-2.95.3/include/g++-3/string /usr/local/gcc-2.95.3/include/g++-3/std/bastring.h /usr/local/gcc-2.95.3/include/g++-3/cstddef /usr/local/gcc-2.95.3/include/g++-3/std/straits.h /usr/local/gcc-2.95.3/include/g++-3/cctype /usr/include/ctype.h /usr/local/gcc-2.95.3/include/g++-3/cstring /usr/include/string.h /usr/local/gcc-2.95.3/include/g++-3/alloc.h /usr/local/gcc-2.95.3/include/g++-3/stl_config.h /usr/local/gcc-2.95.3/include/g++-3/stl_alloc.h
+/udd/marchand/code/bib2html/bib2html.code.v202/lib//libbib2html.a(CConfig.o):	/usr/local/include/assert.h /usr/local/gcc-2.95.3/include/g++-3/iterator /usr/local/gcc-2.95.3/include/g++-3/stl_relops.h /usr/local/gcc-2.95.3/include/g++-3/stl_iterator.h /usr/local/gcc-2.95.3/include/g++-3/std/bastring.cc /udd/marchand/code/bib2html/bib2html.code.v202/src/tools/CList.h /usr/include/stdio.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /udd/marchand/code/bib2html/bib2html.code.v202/src/include/constant.h
+/udd/marchand/code/bib2html/bib2html.code.v202/lib//libbib2html.a(CConfig.o):	/udd/marchand/code/bib2html/bib2html.code.v202/src/tools/String.h 
+	g++ -s -Wall -g -O2  -D ___  -I/udd/marchand/code/bib2html/bib2html.code.v202/src -c CConfig.cpp
+	ar rc /udd/marchand/code/bib2html/bib2html.code.v202/lib//libbib2html.a CConfig.o
+	rm CConfig.o
+/udd/marchand/code/bib2html/bib2html.code.v202/lib/SunOS/libbib2html.a(CConfig.o):	/udd/marchand/code/bib2html/bib2html.code.v202/src/config/CConfig.h /usr/local/gcc-2.8.1/include/g++/fstream.h /usr/local/gcc-2.8.1/include/g++/iostream.h /usr/local/gcc-2.8.1/include/g++/streambuf.h /usr/local/gcc-2.8.1/include/g++/libio.h /usr/local/gcc-2.8.1/sparc-sun-solaris2.7/include/_G_config.h /usr/local/gcc-2.8.1/lib/gcc-lib/sparc-sun-solaris2.7/2.8.1/include/stddef.h /usr/local/include/sys/cdefs.h /usr/include/stdlib.h /usr/include/sys/feature_tests.h
+/udd/marchand/code/bib2html/bib2html.code.v202/lib/SunOS/libbib2html.a(CConfig.o):	/usr/include/sys/isa_defs.h /usr/local/gcc-2.8.1/include/g++/string /usr/local/gcc-2.8.1/include/g++/std/bastring.h /usr/local/gcc-2.8.1/include/g++/cstddef /usr/local/gcc-2.8.1/include/g++/std/straits.h /usr/local/gcc-2.8.1/include/g++/cctype /usr/include/ctype.h /usr/local/gcc-2.8.1/include/g++/cstring /usr/include/string.h /usr/local/gcc-2.8.1/include/g++/alloc.h /usr/local/gcc-2.8.1/include/g++/stl_config.h /usr/local/gcc-2.8.1/include/g++/stl_alloc.h
+/udd/marchand/code/bib2html/bib2html.code.v202/lib/SunOS/libbib2html.a(CConfig.o):	/usr/local/include/assert.h /usr/local/gcc-2.8.1/include/g++/iterator /usr/local/gcc-2.8.1/include/g++/stl_relops.h /usr/local/gcc-2.8.1/include/g++/stl_iterator.h /udd/marchand/code/bib2html/bib2html.code.v202/src/tools/CList.h /usr/include/stdio.h /usr/include/sys/va_list.h /usr/include/stdio_tag.h /usr/include/stdio_impl.h /udd/marchand/code/bib2html/bib2html.code.v202/src/include/constant.h /udd/marchand/code/bib2html/bib2html.code.v202/src/tools/String.h
+/udd/marchand/code/bib2html/bib2html.code.v202/lib/SunOS/libbib2html.a(CConfig.o):	
+	g++-2.8.1  -Wall -g -O2  -D __SunOS_   -I/udd/marchand/code/bib2html/bib2html.code.v202/src -c CConfig.cpp
+	ar rc /udd/marchand/code/bib2html/bib2html.code.v202/lib/SunOS/libbib2html.a CConfig.o
+	rm CConfig.o

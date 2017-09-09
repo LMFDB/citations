@@ -1,0 +1,17 @@
+@build_mk@
+
+
+
+
+all install	: 
+	cd bib ; $(MAKE)
+	cd tex ; $(MAKE)
+
+uninstall uninstallall :
+	rm -rf publi
+	cd tex ; $(MAKE) uninstall
+	cd bib ; $(MAKE) uninstall
+
+clean:
+	cd tex ; $(MAKE) clean
+	cd bib ; $(MAKE) clean
