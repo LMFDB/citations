@@ -10,6 +10,8 @@
 lmfdb: citations.bib
 	bibtex2html -a -nodoc -header "" -footer "" -nofooter -f url -html-entities -o citations_content citations.bib
 	sed -i 's!citations_content\.html!/citation/citations!g' citations_content_bib.html
+	sed -i -e 's/{{/{ {/g' citations_content_bib.html
+	sed -i -e 's/}}/} }/g' citations_content_bib.html
 	sed -i 's!citations_content_bib\.html!/citation/citations_bib!g' citations_content.html
 
 # -d for sort by Date instead of alphabetical
