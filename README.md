@@ -1,4 +1,9 @@
-# citations
+# citations -- obsolete
+
+## This repository is no longer being maintained.
+## The LMFDB now links directly to Google Scholar
+
+
 List of citations of the LMFDB
 
 The file citations.bib contains BiBTeX references for papers,
